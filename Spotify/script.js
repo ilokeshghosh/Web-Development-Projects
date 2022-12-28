@@ -22,7 +22,7 @@ let songs=[
 ]
 
 songItems .forEach((element,i)=>{
-    console.log(element,i);
+    // console.log(element,i);
     element.getElementsByTagName("img")[0].src=songs[i].coverPath;
     element.getElementsByClassName("songName")[0].innerText=songs[i].songName;
 })
@@ -56,4 +56,26 @@ audioElement.addEventListener('timeupdate',()=>{
 
 myProgressBar.addEventListener('change',()=>{
     audioElement.currentTime= myProgressBar.value8 * audioElement.duration/100;         
+})
+
+const makeAllPlays=()=>{
+    Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
+        element.classList.remove('fa-pause-circle');
+        element.classList.add('fa-play-circle');
+
+    })
+}
+
+Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
+    element.addEventListener('click',(e)=>{
+        // console.log(e.target);
+        makeAllPlays();
+        index = (e.target.id);
+        e.target.classList.remove('fa-play-circle');
+        e.target.classList.add('fa-pause-circle');
+        audioElement.src='songs/3.mp3';
+        audioElement.currentTime =0;
+        audioElement.play();
+
+    })
 })
