@@ -54,7 +54,8 @@ nav ul{
 }
 
 .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .br-0{

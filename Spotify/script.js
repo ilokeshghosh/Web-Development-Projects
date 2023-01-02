@@ -11,16 +11,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs=[
-    {songName:"Salam-e-Ishq",filePath:"songs/1.mp3",coverPath:"covers/1.jpg"},
-    {songName:"Tarifein",filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
-    {songName:"Na Na Na ",filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
-    {songName:"Jaguar",filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
-    {songName:"12 ladka",filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
-    {songName:"Black Suite",filePath:"songs/6.mp3",coverPath:"covers/6.jpg"},
-    {songName:"No Love",filePath:"songs/7.mp3",coverPath:"covers/7.jpg"},
-    {songName:"Lo Man Liya",filePath:"songs/8.mp3",coverPath:"covers/8.jpg"},
-    {songName:"Despacito",filePath:"songs/9.mp3",coverPath:"covers/9.jpg"},
-    {songName:"Jadugar",filePath:"songs/10.mp3",coverPath:"covers/10.jpg"}
+    {songName:"Salam-e-Ishq",filePath:"songs/1.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/1.jpg"},
+    {songName:"Tarifein",filePath:"songs/2.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/2.jpg"},
+    {songName:"Na Na Na ",filePath:"songs/3.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/3.jpg"},
+    {songName:"Jaguar",filePath:"songs/4.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/4.jpg"},
+    {songName:"12 ladka",filePath:"songs/5.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/5.jpg"},
+    {songName:"Black Suite",filePath:"songs/6.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/6.jpg"},
+    {songName:"No Love",filePath:"songs/7.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/7.jpg"},
+    {songName:"Lo Man Liya",filePath:"songs/8.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/8.jpg"},
+    {songName:"Despacito",filePath:"songs/9.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/9.jpg"},
+    {songName:"Jadugar",filePath:"songs/10.mp3",coverPath:"https://raw.githubusercontent.com/ilokeshghosh/RESOURCE_WAREHOUSE/main/Spotify%20project/covers/10.jpg"}
 ]
 
 songItems .forEach((element,i)=>{
