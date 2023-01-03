@@ -52,6 +52,9 @@ nav ul{
 
 
 }
+.info{
+    font-size: 22px;
+}
 
 .imgbox img{
     width: 0;
@@ -70,4 +73,15 @@ nav ul{
 }
 .bb-0{
     border-bottom: 0;
+}
+
+#reset{
+    margin: 0 23px;
+    padding: 1px 18px;
+    background:#f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Ballo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
 }
