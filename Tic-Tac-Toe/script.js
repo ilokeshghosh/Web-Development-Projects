@@ -51,3 +51,14 @@ Array.from(boxes).forEach(element=>{
         }
     })
 })
+
+//add onclick listner 
+reset.addEventListener('click', ()=>{
+   let boxtexts = document.querySelectorAll('.boxtext');
+   Array.from(boxtexts).forEach(element =>{
+    element.innerText ="";
+   });
+   turn="X";
+   isgameover = false;
+   document.getElementsByClassName
+})
