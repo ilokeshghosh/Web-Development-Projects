@@ -16,7 +16,7 @@ const changeTurn =()=>{
 const checkWin =()=>{
     let boxtext = document.getElementsByClassName('boxtext');
     let wins =[
-        [0, 1, 2],
+        [0, 1, 2, 5, 15, 90],
         [3, 4, 5],
         [6, 7, 8],
         [0, 3, 6],
@@ -30,6 +30,7 @@ const checkWin =()=>{
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won";
             gameover = true;
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="200px";
+            document.querySelector(".line").style.transform=`translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
       }
     });
 }
@@ -57,7 +58,7 @@ reset.addEventListener('click', ()=>{
    let boxtexts = document.querySelectorAll('.boxtext');
    Array.from(boxtexts).forEach(element =>{
     element.innerText ="";
-   });
+   });    
    turn="X";
    isgameover = false;
    document.getElementsByClassName("info")[0].innerText = "Turn for "+turn;
