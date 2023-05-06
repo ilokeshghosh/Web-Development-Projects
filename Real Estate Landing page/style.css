@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    
+    
+}
+
+.item1{
+    display: flex;
+    margin-left: 510px;
+}
+
+
+
+ul>li{
+    margin: 20px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+    
+}
+
+.heading1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.contact{
+   
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+  
+   
+    
+}
+
+
+.contact>a{
+     text-decoration: none;
+     /* color:black; */
+}
+
+.contact:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    
+}
+
+
+/* 1st landing page or hero page */
+
+.section>img{
+    height: 550px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.text>hr{
+    border: 1.7px solid black;
+    width: 150px;
+    border-radius: 30px;
+    margin: 30px 30px 30px 0px;
+}
+
+
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.text>h1{
+    font-size: 4rem;
+}
+
+.text>p{
+    font-size: 20px;
+    margin: 5px;
+    
+}
+
+.black-button{
+    margin: 50px 10px 10px 10px;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.info>a{
+     margin: 50px 10px 10px 10px;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+}
+.black-button>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.black-button:hover{
+    background-color: white;
+   
+   
+}
+
+.investAndDevelop{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.roi{
+    margin-top: 20px;
+}
+
+.ad{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    
+}
+
+.ad>h1{
+    font-weight: bolder;
+}
+
+.ad>p{
+    font-weight: bolder;
+}
+
+/* project Distribution */
+.projectDistribution{
+    background-color: gainsboro;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.info>h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.info>hr{
+    border: 1.7px solid black;
+    width: 150px;
+    border-radius: 30px;
+    margin: 30px 30px 30px 600px;
+}
+
+.info>h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.info>p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.info>div{
+    margin: 50px auto ;
+}
+
+
+.info,.images{
+    margin: 60px;
+}
+
+.images{
+    display: grid;
+    grid-template-areas: "right-top main left-top"
+                         "right-buttom main left-buttom";
+    gap: 20px;
+}
+.images>img{
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.side>img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.center>img{
+    height: 640px;
+    width: 600px;
+    border-radius: 10px;
+    
+}
+
+/* .right-top{
+
+} */
+.right-buttom{
+    grid-area:right-buttom ;
+   
+    
+}
+
+.center{
+   
+    grid-area: main;
+
+}
+.left-top{
+    grid-area: left-top;
+}
+
+.left-buttom{
+    grid-area: left-buttom;
+}
+
+
+
+
