@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background:
+        linear-gradient(29deg, rgba(0, 0, 255, 1), rgba(0, 0, 0, 0));
+    background: #3d46f3;
+    background-image: url(noise-light.png);
+    /* border: 1px solid red ; */
+
+}
+
+.hero-logo {
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 40vw;
+
+}
+
+.hero-title>h1 {
+    color: white;
+
+    position: absolute;
+    top: 140px;
+    left: 37vw;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    font-weight: bolder;
+
+
+
+}
+
+.verge {
+    position: absolute;
+    bottom: 300px;
+    left: 640px;
+
+}
+
+.button{ 
+    background-color: #FC4F00;
+    
+    width: 200px;
+    height: 53px;
+    padding: 18px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 200px;
+    left: 600px;
+}
+
+.button>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+.content1>img{
+    align-self: center;
+    margin-top: 250px ;
+    margin-left:20px ;
+    overflow: hidden;
+    height: 800px;
+    width: 1500px;
+    /* border: 2px solid red; */
+}
+
+.content1{
+    height: 482px;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
