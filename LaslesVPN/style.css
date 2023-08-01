@@ -8,16 +8,18 @@
 }
 
 
-body{
-width: 1300px;
-margin: auto;
+.main{
+    max-width: 1180px;
+    margin-inline:auto ;
+    padding-inline: 20px;
+    overflow: hidden;
 }
 
 .nav {
     /* border: 2px solid black; */
 
     display: grid;
-    grid-template-columns: 400px 60px 80px 70px 110px 350px 70px 50px;
+    grid-template-columns: 300px 60px 80px 70px 110px 250px 70px 50px;
     column-gap: 10px;
     margin: 20px;
 
@@ -43,8 +45,9 @@ margin: auto;
 }
 
 .signUp>a{
-    color:#F53855 ;
     border: 2px solid #F53855;
+
+    color:#F53855 ;
     padding: 10px 30px ;
     border-radius: 20px;
     
@@ -53,10 +56,14 @@ margin: auto;
 .hero{
     display: flex;
 
+    /* border: 5px solid red; */
+
 }
 
 .title{
     font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    /* border: 2px solid #F53855; */
     
 }
 .para{
@@ -90,7 +97,7 @@ margin: auto;
 
 
     background: linear-gradient(202.61deg, #FFFFFF -41.76%, #D7D7D7 40.5%);
-
+    
     border-radius: 10px;
     margin-top: 30px;
     
@@ -100,6 +107,7 @@ margin: auto;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 30px;
+
     align-items: center;
     /* border: 2px solid red; */
 
@@ -181,7 +189,7 @@ margin: auto;
 }
 
 .plan-text>p>img{
-
+    
     height: 15px;
     width: 15px;
 
@@ -232,6 +240,7 @@ margin: auto;
 
 /* Global Network */
 .network{
+    
     height: 1060px;
     position: relative;
     /* border: 2px solid red; */
@@ -252,7 +261,7 @@ margin: auto;
 .network-map{
     position: absolute;
     
-    left: 130px;
+    left: 70px;
     /* border: 2px solid red; */
     top: 200px;
     overflow: hidden;
@@ -261,8 +270,8 @@ margin: auto;
 .network-sponsored{
     position: absolute;
     width: 1135px;
-    height: 208;
-    left: 130px;
+    height: 208px;
+    left: 20px;
     /* border: 2px solid red; */
     top: 800px;
 }
@@ -280,6 +289,7 @@ margin: auto;
 /* Testimony */
 .testimony{
     height: 600px;
+   
 }
 .testimony-heading,.testimony-subheading{
     text-align: center;
@@ -339,10 +349,11 @@ margin: auto;
 
 .card{
     font-family: 'Rubik', sans-serif;
-    width: 400px;
+    width:400px;
     height: 230px;
     border-radius: 10px;
     display: flex;
+   margin: 0 2px;
     border: 2px solid rgba(245, 56, 56, 1);
     justify-items: center;
     /* justify-content: space-between; */
@@ -356,7 +367,8 @@ margin: auto;
 margin-left: 8px;
 }
 .card>h4{
-    margin-left: 110px;
+    
+    margin-left: 80px;
     font-family: 'Rubik', sans-serif;
 }
 .card>.img{
@@ -367,6 +379,7 @@ margin-left: 20px;
 }
 
 .card>p{
+    margin-top: auto;
     text-align: center;
     margin: auto;
 }
@@ -421,6 +434,9 @@ font-family: 'Rubik', sans-serif;
 .item>h1{
     margin-bottom: 10px;
 }
+
+/* Media Query */
+
 
 
 

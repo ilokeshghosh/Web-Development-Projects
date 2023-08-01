@@ -1,0 +1,165 @@
+
+@media screen and (max-width:991px){
+   
+    .main{
+        /* overflow: hidden; */
+        
+       border: 2px solid red;
+       margin-inline: auto;
+       max-width: 900px;
+       padding-inline: 70px;
+      
+        /* padding: 0 30px; */
+        /* width: 1300px; */
+        /* width: 100%; */
+        /* margin-left: 112px; */
+        /* margin: 0; */
+       
+        
+        
+    }
+    .nav{
+        font-size: .8rem;
+       
+        /* border: 2px solid red; */
+        /* overflow:visible; */
+        /* overflow: hidden; */
+        grid-template-columns: 170px 45px 70px 65px 90px 65px 35px 50px;
+    }
+
+    .title{
+       font-size: .8rem;
+    }
+
+    .para{
+        font-size: .8rem;
+    }
+
+    .button>a{
+        font-size: .8rem;;
+    }
+
+    .illustration1>img{
+        /* border: 2px solid red; */
+        height: 290px;
+        width: 337px;
+    }
+
+    .analytics-text{
+        font-size: .8rem;
+    }
+    .illustration2>img{
+        width: 300px;
+
+    }
+    #features{
+        height: 360px;
+        font-size: .8rem;
+    }
+    .plan-item{
+        padding: 0 50px;
+        margin: 0 2px;
+    }
+
+    .plan{
+        height: 930px;
+        font-size: .8rem;
+    }
+    .plan-logo>img{
+        width: 100px;
+    }
+  
+
+    .plan-text>p{
+
+        margin: 20px 0;
+    
+    }
+    .network{
+        height: 849px;
+    }
+
+    .network-map>img{
+        width: 200px;
+        height: 537px;
+        /* border: 2px solid red; */
+    }
+
+    .network-sponsored-img{
+        width: 600px;
+        height: 150px;
+    }
+
+    .network-sponsored{
+        left: 82px;
+        top: 650px;
+    }
+
+    
+
+    .network-heading,.network-subheading{
+       font-size: .8rem;
+    }
+
+    .network-map>img{
+        width: 862px;
+        height: 437px;
+        /* border: 2px solid red; */
+    }
+    
+    .network-map{
+        
+        
+        left: -52px;
+        
+        /* border: 2px solid red; */
+        top: 200px;
+       
+    }
+
+    .dot{
+        left: 567px;
+        top: 403px;
+    }
+
+    .testimony{
+        font-size: 0.8rem;
+    }
+    .testimony{
+        height: 544px;
+    }
+
+    .card{
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+
+    .footer-container{
+        font-size: .8rem;
+        height: 270px;
+    }
+
+   
+
+
+
+
+
+    
+   
+
+}
+
+@media screen and (max-width:767px){
+    .nav{
+        border: 2px solid green;
+        
+    }
+}
+
+@media screen and (max-width: 479px){
+    .nav{
+        border: 2px solid blue;
+        
+    }
+}
