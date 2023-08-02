@@ -296,6 +296,7 @@
 /* Testimony */
 .testimony{
     height: 600px;
+    position: relative;
 
 }
 .testimony-heading,.testimony-subheading{
@@ -398,6 +399,7 @@ margin-left: 20px;
 
 /* Footer */
 .footer-container{
+position: relative;
 display: flex;
 justify-content: space-between;
 }
