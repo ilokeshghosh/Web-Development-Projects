@@ -1,34 +1,39 @@
 
 @media screen and (max-width:991px){
-   
+
     .main{
         /* overflow: hidden; */
         
-       border: 2px solid red;
-       margin-inline: auto;
-       max-width: 900px;
-       padding-inline: 70px;
-      
+    /* border: 2px solid red; */
+    margin-inline: auto;
+    max-width: 900px;
+    padding-inline: 70px;
+    
         /* padding: 0 30px; */
         /* width: 1300px; */
         /* width: 100%; */
         /* margin-left: 112px; */
         /* margin: 0; */
-       
+    
         
         
     }
     .nav{
         font-size: .8rem;
-       
+    
         /* border: 2px solid red; */
         /* overflow:visible; */
         /* overflow: hidden; */
         grid-template-columns: 170px 45px 70px 65px 90px 65px 35px 50px;
     }
 
+    .nav-toggle{
+        display: none;
+        
+    }
+
     .title{
-       font-size: .8rem;
+    font-size: .8rem;
     }
 
     .para{
@@ -36,7 +41,7 @@
     }
 
     .button>a{
-        font-size: .8rem;;
+        font-size: .8rem;
     }
 
     .illustration1>img{
@@ -68,7 +73,7 @@
     .plan-logo>img{
         width: 100px;
     }
-  
+
 
     .plan-text>p{
 
@@ -79,11 +84,7 @@
         height: 849px;
     }
 
-    .network-map>img{
-        width: 200px;
-        height: 537px;
-        /* border: 2px solid red; */
-    }
+   
 
     .network-sponsored-img{
         width: 600px;
@@ -98,7 +99,7 @@
     
 
     .network-heading,.network-subheading{
-       font-size: .8rem;
+    font-size: .8rem;
     }
 
     .network-map>img{
@@ -114,7 +115,7 @@
         
         /* border: 2px solid red; */
         top: 200px;
-       
+    
     }
 
     .dot{
@@ -126,7 +127,7 @@
         font-size: 0.8rem;
     }
     .testimony{
-        height: 544px;
+        height: 620px;
     }
 
     .card{
@@ -139,27 +140,367 @@
         height: 270px;
     }
 
-   
+
 
 
 
 
 
     
-   
+
 
 }
 
 @media screen and (max-width:767px){
+    .main{
+        /* border: 2px solid green; */
+        max-width: 760px;
+        margin-inline: auto;
+        /* padding-inline: 60px; */
+       
+    }
     .nav{
         border: 2px solid green;
+        font-size: .7rem;
+        grid-template-columns: 136px 34px 48px 39px 68px 63px 35px 50px;
         
     }
+
+    .logo>img{
+        width: 120px;
+        height: 26.2px;
+    
+    
+    
+    
+    }
+    .signUp>a{
+        border: 2px solid #F53855;
+    
+        color:#F53855 ;
+        padding: 7px 20px ;
+        border-radius: 20px;
+        
+    }
+
+    .title{
+        font-size: .7rem;
+    }
+    .button>a{
+        font-size: .7rem;
+    }
+    .para{
+        font-size: .7rem;
+    }
+    .illustration1>img{
+        /* border: 2px solid red; */
+        height: 250px;
+        width: 260px;
+    }
+    .analytics-text{
+        font-size: .7rem;
+    }
+    .illustration2>img{
+        width: 260px;
+
+    }
+    #features{
+        height: 518px;
+        font-size: .7rem;
+    }
+    .plan{
+        height: 930px;
+        font-size: .7rem;
+    }
+    .plan-item{
+        padding: 0 44px;
+        margin: 0 2px;
+    }
+
+    .plan-logo>img{
+        width: 90px;
+    }
+    .plan-text>p{
+
+        margin: 18px 0;
+    
+    }
+    .network{
+        height: 770px;
+        font-size: .7rem;
+    }
+    .network-map>img{
+        width: 728px;
+        height: 385px
+        /* border: 2px solid red; */
+    }
+    .network-map{
+        
+        
+        left: -52px;
+        
+        /* border: 2px solid red; */
+        top: 175px;
+    
+    }
+    .dot{
+        left: 470px;
+        top: 355px;
+    }
+
+    
+
+    .network-sponsored{
+        left: 18px;
+        top: 550px;
+    }
+
+    .testimony{
+        font-size: .7rem;
+    }
+
+    .card{
+        font-size: .7rem;
+        margin: 5px;
+    }
+
+    .card>.img{
+        margin-left: 10px;
+        }
+
+        .white-button{
+            padding: 8px;
+            border-radius: 40px;
+        }
+        .orange-button{
+            border: 2px solid rgba(245, 56, 56, 1);
+            padding: 8px;
+            border-radius: 20px;
+        
+        }
+
+        .footer-container{
+            font-size: .7rem;
+            height: 270px;
+        }
+    
+
+
+    
 }
 
 @media screen and (max-width: 479px){
     .nav{
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
+        font-size: .5rem;
         
     }
+
+    .nav-toggle{
+        display: inline-block;
+        position: relative;
+        bottom: 0px;
+        left: 125px;
+       
+    }
+    .link{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .title>h1{
+        text-align: center;
+    
+    }
+    .para>p{
+        text-align: center;
+    }
+    .button{
+        margin-left: 50px;
+    }
+    .button>a{
+        padding: 11px 76px
+    }
+    .illustration1>img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .illustration1{
+        margin: auto;
+    }
+    .analytics{
+        margin: auto;
+    }
+    
+    .analytics-text{
+        font-size: .5rem;
+    }
+
+    .analytics-img>img{
+        width: 30px;
+        margin-right: 15px;
+        /* heigh; */
+    }
+    .inner-flex{
+
+        column-gap: 0px;
+    }
+
+    #features{
+        height: 360px;
+        font-size: .5rem;
+        flex-direction: column;
+    }
+    .heading>h2,.body>p,.points>p{
+        text-align: center;
+    }
+    .illustration2>img{
+        width: 225px;
+    }
+
+    .plan{
+        /* height: 930px; */
+        font-size: .5rem;
+    }
+
+    .plan-item{
+        padding: 0;
+        margin: 0 2px;
+    }
+
+    .plan-logo>img{
+        width: 80px;
+    }
+    .plan-text>p{
+
+        margin: 10px 0;
+    
+    }
+
+    .network{
+        font-size: .5rem;
+    }
+    .network-heading,.network-subheading{
+        font-size: .5rem;
+    }
+    .network-map>img{
+        width: 439px;
+        height: 239px
+        
+    }
+    .network-map{
+        
+        
+       
+        
+        /* border: 2px solid red; */
+        top: 120px;
+    
+    }
+    .dot{
+        height: 3px;
+        width: 3px;
+        left: 263px;
+        top: 231px;
+    }
+
+    .network-sponsored{
+        left: -44px;
+        top: 330px;
+    }
+
+    .network-sponsored-img {
+        width: 420px;
+        height: 110px;
+    }
+
+    .testimony{
+        font-size: .5rem;
+    }
+
+    .card{
+        font-size: .5rem;
+        margin: 3px;
+        flex-direction: column;
+        height: 190px;
+    }
+
+    .card>.img{
+        margin-left: 3px;
+        width: 30px;
+    }
+
+    .card>.star{
+        margin-left: 8px;
+        width: 10px;
+    }
+    .card>h4{
+    
+        margin-left: 6px;
+        
+    }
+    .name-place{
+        margin: 5px 10px;
+    }
+
+    .white-button{
+        padding: 5px;
+        border-radius: 40px;
+    }
+    .orange-button{
+        border: 2px solid rgba(245, 56, 56, 1);
+        padding: 5px;
+        border-radius: 20px;
+    
+    }
+    .orange-button>img,.white-button>img{
+        width: 13px;
+    }
+    .toggle-view>img{
+        width: 80px;
+        height: 10px;
+    }
+    .card-container{
+        height: 250px;
+    }
+
+    .footer-container{
+        font-size: .5rem;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* flex-direction: column; */
+        height: 670px;
+    }
+
+    .copywrite{
+    
+        text-align: center;
+    }
+    .item1>img {
+    
+        width: 100px;
+        /* margin: auto; */
+    }
+    .item1>img{
+        margin-bottom: 10px ;
+        margin-left: 50px;
+    }
+    
+    
+
+
+
+
+
+   
+
+    
+
+    
+   
+    
 }

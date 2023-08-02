@@ -28,6 +28,13 @@
 
 }
 
+.nav-toggle{
+    height: 20px;
+    width: 20px;
+}
+
+
+
 .link>a {
     text-decoration: none;
     color: #4F5665;
@@ -281,7 +288,7 @@
     width: 5px;
     border-radius: 100px;
     position: absolute;
-    left: 890px;
+    left: 830px;
     top: 456px;
 
 }
@@ -289,7 +296,7 @@
 /* Testimony */
 .testimony{
     height: 600px;
-   
+
 }
 .testimony-heading,.testimony-subheading{
     text-align: center;
