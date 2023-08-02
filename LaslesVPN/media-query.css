@@ -160,7 +160,7 @@
        
     }
     .nav{
-        border: 2px solid green;
+        /* border: 2px solid green; */
         font-size: .7rem;
         grid-template-columns: 136px 34px 48px 39px 68px 63px 35px 50px;
         
