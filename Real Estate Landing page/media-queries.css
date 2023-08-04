@@ -1,0 +1,148 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main{
+        margin-inline: auto;
+        /* max-width: 600px; */
+        max-width: 100vw;
+        /* padding-inline: 70px; */
+    }
+    nav {
+
+        /* border: 3px solid rgb(0, 255, 0); */
+        margin-inline: auto;
+        /* max-width: 600px; */
+        max-width: 100vw;
+        
+        /* padding-inline: 70px; */
+    }
+  
+    .heading1{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+   
+
+    .section>img{
+        align-self: center;
+        height: 30vh;
+        width: 75vw;
+        border-radius: 10px;
+        order: -1;
+    }
+    .section{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text>p{
+        font-size: 1rem;
+        margin: 10px;
+        font-weight: bold;
+        
+    }
+    .text>h1{
+        font-size: 3rem;
+    }
+    .consultation{
+        position: relative;
+        left: 10vw;
+    }
+
+    .text>hr{
+       
+        width: 75vw;
+        
+    }
+    .investAndDevelop{
+        margin: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon{
+       transform: rotateZ(90deg);
+      
+    }
+
+    .info>h1{
+        font-size: 3rem;
+        /* text-align:start; */
+        /* word-spacing: 10px; */
+        line-height: 80px;
+    }
+    .info>p{
+        font-weight: bold;
+    }
+
+    #meeting>a{
+        /* border: 2px solid red; */
+        /* left: 10vw;  */
+        top: 40px;
+        left: 12vw;
+        
+    }
+    #meeting{
+        width: 75vw; 
+        margin: 0 auto;
+        /* border: 2px solid red; */
+        margin-right: 25vw;
+
+    }
+
+    .info>hr{
+        width: 75vw;
+        
+    }
+
+    .images{
+        grid-template-areas: "one ""two" "three" "four"; 
+        gap: 20px;
+        justify-content: space-evenly;
+        
+    }
+
+    .box>img{
+
+        margin-bottom: 2px;
+    }
+
+    .right-buttom{
+        grid-area:one;
+
+        
+    }
+
+    .center{
+   
+        grid-area: two;
+    
+    }
+    .left-top{
+        grid-area: three;
+    }
+    
+    .left-buttom{
+        grid-area: four;
+    }
+
+    .center>img{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        
+    }
+    
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
