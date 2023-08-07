@@ -338,6 +338,7 @@ footer{
                         "copywrite quicklinks"
                         "social quicklinks";
                         gap: 20px;
+                        justify-content: space-around;
                         
 
 }
