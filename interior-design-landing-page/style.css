@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600;700&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+/* utility class */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.margin-10px{
+    margin: 10px;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.list{
+
+    list-style: none;
+}
+
+.btn{
+    border: 2px solid rgba(109, 125, 125, 1);
+    padding: 5px 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 5px;
+}
+
+
+
+.main-container{
+    width: 100vw;
+
+    height: 100vh;
+    overflow-x:hidden;
+}
+
+
+
+/* Navigation */
+.hero-container{
+    background-image: url("/BG.png");
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    /* overflow: hidden; */
+}
+
+.nav-container{
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 20px;
+
+}
+
+.nav-text{
+    /* justify-content: space-evenly; */
+    gap: 5rem;
+}
+
+.nav-menu{
+    /* border: 1px solid red; */
+    gap: 4rem;
+    
+}
+
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.get-started{
+    border: 2px solid rgba(109, 125, 125, 1);
+    padding: 5px 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 5px;
+
+}
+
+.hero-section-text{
+    height: 90vh;
+    /* border: 2px solid red; */
+    color: white;
+    gap: 15rem;
+}
+
+.left-box{
+    position: relative;
+    top: 10rem;
+    left: -15rem;
+    transform: rotateZ(270deg);
+    letter-spacing: 5px;
+    
+
+}
+.left-box h4{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.right-box{
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.right-box h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.right-box p{
+    font-size: 1.1rem;
+}
+
+.right-box img{
+    /* border: 2px solid red; */
+    /* margin-top: 8px; */
+    width: 60px;
+    height: 60px;
+}
+
+.right-box img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+/* about section */
+.about-section{
+    height: 120vh;
+    width: 100vw;
+    color: white;
+    position: relative;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+
+    
+    
+
+    
+    background-image: url("/BG2.png");
+
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-self: flex-start; */
+    gap: 1rem;
+    /* border: 2px solid red; */
+    
+    width: 80vw;
+}
+.about-content h4{
+    color: rgba(109, 125, 125, 1);
+    letter-spacing: 5px;
+    font-weight: lighter;
+
+}
+
+.about-content h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.about-content p{
+    font-weight: lighter;
+}
+.img-stat{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    height: 442px;
+    
+}
+
+.img-stat-left-box{
+    /* border: 1px solid red; */
+    width: 43vw;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-stat-left-top-box{
+    /* border: 1px solid green; */
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.img-stat-left-top-box img{
+    height: 100%;
+}
+
+.learn-about{
+    align-self: flex-end;
+
+}
+
+
+
+
+.img-stat-left-bottom-box{
+    /* border: 1px solid blue; */
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-stat-left-bottom-box .projects-done h2,.pro-teams h2,.global-clients h2{
+    /* border: 2px solid red; */
+    color: rgba(109, 125, 125, 1);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.img-stat-left-bottom-box .projects-done p,.pro-teams p,.global-clients p{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+/* Hire-us Section */
+
+.hire-section{
+    /* border: 2px solid red; */
+    /* width: 100vw; */
+    /* height: 318px; */
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hire-content{
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: -100px;
+    
+    width:60vw;
+    border-radius: 50px 50px 0px 50px;
+    background: #212828;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+    justify-content:center;
+    gap:8rem;
+    color: white;
+    /* padding-right: rem; */
+}
+
+.hire-content img{
+    /* width: 300px; */
+    width: 40%;
+    height: 232px;
+    /* border: 2px solid red; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+.hire-content-right-content h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.hire-content-right-content{
+    /* border: 2px solid red; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hire-use{
+    width: 10rem;
+    text-align: center;
+}
+
+/* team section */
+.team-section{
+    border: 2px solid red;
+    height: 100vh;
+}
+.team-content{
+    border: 2px solid blue;
+}
+
+
+
+
+
+
