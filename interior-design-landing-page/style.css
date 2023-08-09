@@ -36,6 +36,7 @@ body{
     color: white;
     border-radius: 40px;
     letter-spacing: 5px;
+    
 }
 
 
@@ -45,6 +46,20 @@ body{
 
     height: 100vh;
     overflow-x:hidden;
+}
+
+
+.content-title-head-text h4{
+    color: rgba(109, 125, 125, 1);
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+.content-title-head-text h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.content-title-head-text p{
+    font-weight: lighter;
 }
 
 
@@ -151,6 +166,7 @@ body{
 
 /* about section */
 .about-section{
+    /* border: 2px solid red; */
     height: 120vh;
     width: 100vw;
     color: white;
@@ -164,7 +180,8 @@ body{
     
 
     
-    background-image: url("/BG2.png");
+    /* background-image: url("/BG2.png"); */
+    background-color: #191d1d;
 
 }
 
@@ -176,21 +193,9 @@ body{
     /* border: 2px solid red; */
     
     width: 80vw;
-}
-.about-content h4{
-    color: rgba(109, 125, 125, 1);
-    letter-spacing: 5px;
-    font-weight: lighter;
 
 }
 
-.about-content h3{
-    font-size: 2rem;
-    font-weight: 300;
-}
-.about-content p{
-    font-weight: lighter;
-}
 .img-stat{
     display: flex;
     justify-content: space-between;
@@ -252,7 +257,7 @@ body{
 
 .hire-section{
     /* border: 2px solid red; */
-    /* width: 100vw; */
+    width: 100vw;
     /* height: 318px; */
     /* height: 200px; */
     display: flex;
@@ -265,22 +270,23 @@ body{
     /* border: 2px solid red; */
     position: absolute;
     bottom: -100px;
+    left: 9.5rem;
     
-    width:60vw;
+    width:80vw;
     border-radius: 50px 50px 0px 50px;
     background: #212828;
     display: flex;
     align-items: center;
     /* justify-content:space-around; */
     justify-content:center;
-    gap:8rem;
+    gap:12.2rem;
     color: white;
     /* padding-right: rem; */
 }
 
 .hire-content img{
     /* width: 300px; */
-    width: 40%;
+    width: 24%;
     height: 232px;
     /* border: 2px solid red; */
     border-radius: 50px 0px 0px 50px;
@@ -298,19 +304,124 @@ body{
     gap: 1.5rem;
 }
 
-.hire-use{
+.hire-us{
     width: 10rem;
     text-align: center;
+    text-transform: capitalize;
 }
 
 /* team section */
 .team-section{
-    border: 2px solid red;
-    height: 100vh;
+    width: 100vw;
+    background-image: url("/BG2.png");
+    /* border: 2px solid red; */
+    height: 130vh;
+    padding-top: 5rem;
+   
 }
 .team-content{
-    border: 2px solid blue;
+    /* border: 2px solid green; */
+    height: 130vh;
+    width: 80vw;
+    flex-direction: column;
+    
+
 }
+
+.team-content-text-img{
+    /* border: 2px solid blue; */
+    height: 70%;
+    width: 100%;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+    
+}
+
+
+.team-content-logo{
+    /* border: 2px solid red; */
+    height: 20%;
+    width: 100%;
+}
+
+.team-content-left-box{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap:10rem; */
+    /* align-items: flex-start; */
+
+}
+
+.team-content-left-up-box{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    color: white;
+    gap: 1rem;
+}
+
+
+
+.team-content-left-down-box{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 50%;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    
+    /* align-items: flex-start; */
+}
+
+.team-content-left-down-box img{
+    width: 20px;
+    width: 300px;
+    height: 100px;
+    /* border: 2px solid red; */
+
+}
+
+.team-content-right-box{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.team-content-right-up-box{
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.team-content-right-down-box{
+    /* border: 2px solid green; */
+    height: 50%;
+    width: 100%;
+    justify-content:space-evenly;
+    
+    
+}
+
+.team-content-right-down-box img{
+    align-self:flex-start ;
+}
+
+.learn-more-button-container{
+    /* border: 2px solid red; */
+    width: 274px;
+}
+
 
 
 
