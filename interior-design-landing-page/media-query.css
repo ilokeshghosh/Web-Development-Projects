@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600;700&family=Roboto:wght@300;400;700;900&display=swap');
+/* Media query */
+
+
+
+/* Small mobile devices */
+@media only screen and (max-width: 575.98px) {
+  /* Styles for small mobile devices */
+
+/* Navigation */
+.nav-menu{
+    /* border: 2px solid red; */
+    display: none;
+}
+.nav-text i{
+    display: inline;
+
+}
+.hero-container{
+    /* border: 2px solid red; */
+    background-position: 30%;
+    /* background-size: 100vw 100vh ; */
+
+
+}
+
+.get-started{
+    border: 2px solid rgba(109, 125, 125, 1);
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 5px;
+
+}
+
+.left-box{
+    display: none;
+}
+.right-box{
+    align-items: center;
+}
+
+/* About section */
+.about-section{
+    height: 200vh;
+    /* border: 2px solid red; */
+
+}
+.img-stat{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+
+.img-stat-left-box{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.img-stat-left-first-img{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 100%;
+}
+.img-stat-left-first-img img{
+    max-width: 100%;
+    height: 100%;
+    
+}
+.img-stat-left-second-img{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 100%;
+}
+.img-stat-left-second-img img{
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.img-stat-right-box{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 100%;
+}
+
+.learn-about {
+    padding: 5px 15px;
+}
+
+.img-stat-right-bottom-box .projects-done h2,.pro-teams h2,.global-clients h2{
+    /* border: 2px solid red; */
+
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+
+
+}
+
+/* Medium-sized mobile devices */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for medium-sized mobile devices */
+}
+
+/* Large mobile devices */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for large mobile devices */
+}
+
+/* Tablets and small desktop screens */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for tablets and small desktop screens */
+}
+
+/* Standard desktop screens */
+@media only screen and (min-width: 1200px) and (max-width: 1599.98px) {
+  /* Styles for standard desktop screens */
+
+
+
+
+
+}
+
+
+/* Large desktop screens */
+@media only screen and (min-width: 1600px) {
+  /* Styles for large desktop screens */
+}
+
+
+
+
+
+

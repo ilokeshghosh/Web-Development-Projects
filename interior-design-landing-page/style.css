@@ -30,7 +30,7 @@ body{
 }
 
 .btn{
-    border: 2px solid rgba(109, 125, 125, 1);
+    border: 2px solid #6d7d7d;
     padding: 5px 30px;
     background-color: transparent;
     color: white;
@@ -100,6 +100,9 @@ body{
 .nav-text{
     /* justify-content: space-evenly; */
     gap: 5rem;
+}
+.nav-text i{
+    display: none;
 }
 
 .nav-menu{
@@ -216,20 +219,47 @@ body{
 .img-stat{
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     /* border: 2px solid blue; */
-    height: 442px;
+    /* height: 442px; */
+    height: 100%;
+    width: 100%;
     
 }
-
 .img-stat-left-box{
-    /* border: 1px solid red; */
-    width: 43vw;
+    width: 45%;
+    height: 100%;
+    
+    /* align-items: flex-start; */
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    /* gap: 30px; */
+    /* border: 2px solid red; */
+}
+
+.img-stat-left-first-img{
+/* border: 2px solid red; */
+width: 50%;
+/* height: 100%; */
+}
+.img-stat-left-second-img{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    /* height: 100%; */
+}
+
+/*  */
+.img-stat-right-box{
+    /* border: 1px solid green; */
+    /* width: 43vw; */
+    width: 55%;
     height:100%;
     display: flex;
     flex-direction: column;
 }
 
-.img-stat-left-top-box{
+/*  */
+.img-stat-right-top-box{
     /* border: 1px solid green; */
     height: 50%;
     display: flex;
@@ -238,7 +268,8 @@ body{
     
 }
 
-.img-stat-left-top-box img{
+/*  */
+.img-stat-right-top-box img{
     height: 100%;
 }
 
@@ -250,7 +281,8 @@ body{
 
 
 
-.img-stat-left-bottom-box{
+/*  */
+.img-stat-right-bottom-box{
     /* border: 1px solid blue; */
     height: 50%;
     display: flex;
@@ -258,14 +290,16 @@ body{
     justify-content: space-around;
 }
 
-.img-stat-left-bottom-box .projects-done h2,.pro-teams h2,.global-clients h2{
+/*  */
+.img-stat-right-bottom-box .projects-done h2,.pro-teams h2,.global-clients h2{
     /* border: 2px solid red; */
     color: rgba(109, 125, 125, 1);
     font-weight: 400;
     font-size: 2rem;
 }
 
-.img-stat-left-bottom-box .projects-done p,.pro-teams p,.global-clients p{
+/*  */
+.img-stat-right-bottom-box .projects-done p,.pro-teams p,.global-clients p{
     letter-spacing: 5px;
     text-transform: capitalize;
 }
@@ -897,3 +931,5 @@ body{
     width: 50%;
     justify-content: flex-end;
 }
+
+
