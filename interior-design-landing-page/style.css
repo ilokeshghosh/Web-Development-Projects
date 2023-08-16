@@ -361,6 +361,8 @@ width: 50%;
     text-transform: capitalize;
 }
 
+
+
 /* team section */
 .team-section{
     width: 100vw;
@@ -368,6 +370,7 @@ width: 50%;
     /* border: 2px solid red; */
     height: 130vh;
     padding-top: 5rem;
+    flex-direction: column;
 
 }
 .team-content{
@@ -431,7 +434,7 @@ width: 50%;
 }
 
 .team-content-left-down-box img{
-    width: 20px;
+    /* width: 20px; */
     width: 300px;
     height: 100px;
     /* border: 2px solid red; */
@@ -636,7 +639,7 @@ width: 50%;
 .blog-content{
     /* border: 2px solid blue; */
     width: 80vw;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
 
@@ -782,7 +785,7 @@ width: 50%;
 .footer-content{
     /* border: 2px solid blue; */
     width: 80vw;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
     /* background-color: white; */
