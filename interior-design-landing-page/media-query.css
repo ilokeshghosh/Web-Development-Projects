@@ -2,6 +2,31 @@
 /* Media query */
 
 
+@media only screen and  (max-width:432px) {
+    /* Navigation */
+
+
+.about-section{
+    height: 120vh !important;
+    /* border: 2px solid red; */
+
+}
+
+.hire-content-right-content{
+    /* border: 2px solid red; */
+    
+    gap: 0;
+    font-size: smaller;
+}
+.hire-content-right-content h1{
+    font-size: .1rem;
+    font-weight: 100;
+    /* border: 2px solid red; */
+}
+
+}
+
+
 
 /* Small mobile devices */
 @media only screen and (max-width: 575.98px) {
@@ -122,6 +147,7 @@
 .hire-content-right-content h1{
     font-size: 1rem;
     font-weight: 200;
+    /* border: 2px solid red; */
 }
 .hire-us{
     /* border: 2px solid red; */
