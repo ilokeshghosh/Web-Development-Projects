@@ -396,8 +396,10 @@
 }
 
 .subscribe{
-    width: 70%;
-    /* border: 2px solid red; */
+    width: 80%;
+    /* text-align: center; */
+    /* font-size: small; */
+    border: 2px solid red;
 }
 
 
