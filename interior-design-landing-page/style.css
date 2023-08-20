@@ -375,7 +375,8 @@ width: 50%;
 }
 .team-content{
     /* border: 2px solid green; */
-    height: 130vh;
+    /* height: 130vh; */
+    height: 100%;
     width: 80vw;
     flex-direction: column;
     
@@ -468,7 +469,7 @@ width: 50%;
 }
 
 .team-content-right-down-box img{
-    align-self:flex-start ;
+    align-self:flex-start;
 }
 
 .learn-more-button-container{
