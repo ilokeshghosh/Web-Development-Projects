@@ -36,7 +36,9 @@ body{
     color: white;
     border-radius: 40px;
     letter-spacing: 5px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:hover{
@@ -357,6 +359,7 @@ width: 50%;
 
 .hire-us{
     width: 10rem;
+    /* border: 2px solid red; */
     text-align: center;
     text-transform: capitalize;
 }
