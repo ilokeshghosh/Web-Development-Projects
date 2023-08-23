@@ -332,7 +332,8 @@ ul>li{
 footer{
     background-color: #000000;
     color: white;
-    height: 100%;
+    /* height: 100%; */
+    height: 60vh;
     display: grid;
     grid-template-areas: "logo  quicklinks "
                         "copywrite quicklinks"
