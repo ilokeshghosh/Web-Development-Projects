@@ -18,9 +18,11 @@ nav{
     /* max-width: 1180px; */
     height: 100px;
     align-items: center;
+    gap: 1rem;
     
     
 }
+
 
 .main{
     /* max-width: 600px; */
@@ -30,11 +32,30 @@ nav{
     overflow: hidden;
 }
 
+.nav-bar{
+    width: 1%;
+    /* border: 2px solid red; */
+    /* margin-left: 50%; */
+    display: none;
+    
+}
 
 .item1{
+    width: 79%;
     display: flex;
-    margin-left: 510px;
+    /* margin-left: 120px; */
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+    align-items: center;
+
 }
+.logo{
+    width: 90px;
+    height: 100%;
+    /* border: 2px solid white; */
+    /* margin-left: 50px; */
+}
+
 
 
 
@@ -60,9 +81,6 @@ ul>li{
 
 }
 
-.logo{
-    margin-left: 50px;
-}
 
 .contact>a{
 
@@ -280,7 +298,7 @@ ul>li{
 .images{
     display: grid;
     grid-template-areas: "right-top main left-top"
-                         "right-buttom main left-buttom";
+                        "right-buttom main left-buttom";
     gap: 20px;
     
     

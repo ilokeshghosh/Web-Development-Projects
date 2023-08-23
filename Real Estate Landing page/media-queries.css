@@ -17,7 +17,15 @@
     }
 
     .item1{
-      display: none;
+    display: none;
+    
+    }
+
+    .nav-bar{
+        width: 70%;
+        display: inline-flex;
+        /* border: 2px solid red; */
+        justify-content: flex-end;
     }
 
     .heading1{
@@ -453,7 +461,7 @@
         /* padding-inline: 70px; */
     }
     .item1{
-        margin-left: 160px;
+        /* margin-left: 160px; */
     }
     ul>li{
         margin: 20px;
@@ -538,8 +546,8 @@
     
     .item1{
         display: flex;
-        /* margin-left: 810px; */
-        margin-left: 510px;
+        
+        /* margin-left: 510px; */
     }
     
     
@@ -559,7 +567,7 @@
     }
     
     .logo{
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
     
     .contact>a{
