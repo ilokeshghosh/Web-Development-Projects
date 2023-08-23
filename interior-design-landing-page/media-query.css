@@ -33,11 +33,11 @@
 
 }
 
-.hero-section-text{
+/* .hero-section-text{ */
     /* margin: auto; */
     /* padding: 10px; */
     /* border: 2px solid blue; */
-}
+/* } */
 
 .get-started{
     border: 2px solid rgba(109, 125, 125, 1);
@@ -119,13 +119,14 @@
     /* border: 2px solid white; */
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .learn-about {
     /* border: 2px solid red; */
-    
+    /* height:100% ; */
     padding: 5px 15px;
+    align-self: center;
 }
 
 .img-stat-right-bottom-box .projects-done h2,.pro-teams h2,.global-clients h2{
