@@ -13,33 +13,85 @@
 
 
     <!-- hero page -->
-    <div id="home" class=" pb-[5.5rem] mb-10  w-screen bg-no-repeat  bg-right-top "
+    <div id="home" class=" pb-[5.5rem] mb-10  w-screen bg-no-repeat  bg-right-top relative"
         style="background-image: url('../assets/Decore.png');">
 
-        <!-- nav bar -->
-        <nav class="flex  items-center justify-between pt-4 max-w-[1800px]  w-3/4 mx-auto">
-            <!-- logo -->
-            <div class="w-1/5"><img src="../assets/Logo.png" alt="err"></div>
 
-            <!-- nav menu -->
-            <div class="w-3/5  hidden  h-full md:flex justify-center items-center">
-                <ul class="  h-full text-lg font-bold flex justify-evenly items-center w-full">
-                    <li><a href="#">Destination</a></li>
-                    <li><a href="#">Hotels</a></li>
-                    <li><a href="#">Flights</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><button class="px-3 hover:bg-slate-800 hover:text-white rounded">Login</button></li>
-                    <li><button class=" border-2 border-slate-800 px-3 rounded hover:bg-slate-800 hover:text-white">Sign
-                            up</button></li>
-                </ul>
+        <!-- nav section -->
+        <div class="pt-4">
 
+            <!-- drop nav menu -->
+            <div id="drop-menu"
+                class="w-full overflow-y-hidden z-10  max-w-[1800px] border md:hidden hidden  bg-slate-200 fixed transform -translate-y-[14px] -top-5 ">
+                <div class="w-3/4 mx-auto">
+                    <!-- cross  -->
+                    <div class="w-full flex justify-end items-center text-lg font-bold">
+                        <h2>X</h2>
+                    </div>
+
+                    <!-- menu -->
+                    <div class="overflow-y-hidden">
+                        <ul class="flex gap-2 flex-col justify-center items-center font-bold">
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Flights</a></li>
+                            <li><a href="#">Bookings</a></li>
+                            <li><button class="px-3 hover:bg-slate-800 hover:text-white rounded">Login</button></li>
+                            <li><button
+                                    class=" border-2 border-slate-800 px-3 rounded hover:bg-slate-800 hover:text-white">Sign
+                                    up</button></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <!--hamburger -->
-            <div class="md:hidden ">
-                <p class="font-bold text-2xl">&equiv;</p>
-            </div>
-        </nav>
+
+
+
+
+
+
+
+            <!-- nav bar -->
+            <nav id="nav" class="flex  items-center justify-between  max-w-[1800px]  w-3/4 mx-auto">
+                <!-- logo -->
+                <div class="w-1/5"><img src="../assets/Logo.png" alt="err"></div>
+
+                <!-- nav menu -->
+                <div class="w-3/5  hidden  h-full md:flex justify-center items-center">
+                    <ul class="  h-full text-lg font-bold flex justify-evenly items-center w-full">
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Bookings</a></li>
+                        <li><button class="px-3 hover:bg-slate-800 hover:text-white rounded">Login</button></li>
+                        <li><button
+                                class=" border-2 border-slate-800 px-3 rounded hover:bg-slate-800 hover:text-white">Sign
+                                up</button></li>
+                    </ul>
+
+                </div>
+
+                <!--hamburger -->
+                <div id="hamburger" class="md:hidden cursor-pointer ">
+                    <p class="font-bold text-2xl">&equiv;</p>
+                </div>
+            </nav>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- hero section -->
         <div class="w-3/4  flex-col md:flex-row   p-1 max-w-[1800px]   justify-center items-center flex mx-auto mt-10">
@@ -78,6 +130,8 @@
         </div>
 
     </div>
+
+
 
     <!-- category -->
     <div class="bg-no-repeat mx-auto max-w-[1800px] bg-right-top px-4 w-screen flex justify-center items-center"
@@ -451,7 +505,8 @@
                     <!-- left/logo and slogan -->
                     <div class="flex flex-col items-center md:items-start md:w-[25%] w-full p-2 gap-4">
                         <!-- logo -->
-                        <div class="w-full p-1 flex md:justify-start justify-center"><img src="../assets/Logo.png" alt="logo"></div>
+                        <div class="w-full p-1 flex md:justify-start justify-center"><img src="../assets/Logo.png"
+                                alt="logo"></div>
 
                         <!-- slogan -->
                         <div class="w-full p-1 md:text-start text-center">
@@ -461,10 +516,12 @@
                     </div>
 
                     <!-- middle/ footer menu -->
-                    <div class="flex md:gap-4 gap-y-14 items-center md:flex-row flex-col justify-between  md:w-[50%] w-full p-1">
+                    <div
+                        class="flex md:gap-4 gap-y-14 items-center md:flex-row flex-col justify-between  md:w-[50%] w-full p-1">
 
                         <!-- footer menu left -->
-                        <div class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
+                        <div
+                            class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
                             <!-- sub-title -->
                             <div class="font-bold text-lg w-full">
                                 <h3>Company</h3>
@@ -480,7 +537,8 @@
 
 
                         <!-- footer menu middle -->
-                        <div class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
+                        <div
+                            class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
                             <!-- sub-title -->
                             <div class="font-bold text-lg w-full">
                                 <h3>Contact</h3>
@@ -495,7 +553,8 @@
                         </div>
 
                         <!-- footer menu right -->
-                        <div class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
+                        <div
+                            class="md:w-1/3 w-full flex flex-col text-center md:text-start md:flex justify-center md:items-start items-center  gap-4 p-1">
                             <!-- sub-title -->
                             <div class="font-bold text-lg w-full">
                                 <h3>More</h3>
@@ -530,7 +589,7 @@
                         <div class="flex w-full gap-2 justify-between items-center p-2">
                             <a href="#"> <img src="../assets/Google Play.png" alt="google-play-link"></a>
                             <a href="#"><img src="../assets/Play Store.png" alt="apple-store-link"></a>
-                            
+
                         </div>
                     </div>
 
@@ -545,5 +604,7 @@
     </div>
 
 </body>
+<!-- script -->
+<script src="script.js"></script>
 
 </html>
