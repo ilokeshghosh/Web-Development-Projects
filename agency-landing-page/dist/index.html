@@ -6,27 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agency Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body class="overflow-x-hidden">
 
     <!-- hero container -->
-    <div class="w-screen flex flex-col justify-center items-center bg-center bg-no-repeat bg-cover"
+    <div class="w-screen flex overflow-x-hidden flex-col justify-center items-center bg-center bg-no-repeat bg-cover"
         style="background-image: url('../assets/banner.jpg');">
 
         <!-- hero page -->
-        <div class="w-3/4  max-w-[1800px] mx-auto flex flex-col justify-center items-center   md:gap-[5rem] mb-[7.65rem] mt-4">
+        <div
+            class="w-3/4 my-[10rem]  max-w-[1800px] mx-auto flex flex-col justify-center items-center   md:gap-[5rem] mb-[7.65rem] mt-4">
 
             <!-- nav -->
-            <nav class="text-white w-full flex justify-between items-center  p-4">
+            <nav class="text-white w-full flex justify-between items-center  md:p-4 p-2">
 
                 <!-- logo -->
-                <div class="w-[10%]   flex justify-between items-center p-2 text-center">
+                <div class="w-[40%] md:w-[10%]   flex justify-between items-center p-2 text-center">
                     <h2 class="font-bold text-2xl text-center w-full">Deltify</h2>
                 </div>
 
                 <!-- nav menu -->
-                <div class="w-[50%]    p-2">
+                <div class="w-[50%]    p-2 hidden md:block">
                     <ul class="flex justify-between items-center  font-bold p-1">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
@@ -37,23 +43,26 @@
                 </div>
 
                 <!-- login buttons -->
-                <div class="w-[25%]    p-2 flex justify-between items-center">
+                <div class="md:w-[25%] w-[60%]   p-2 flex justify-between items-center">
                     <button
-                        class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-1 px-10">Login</button>
+                        class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-1 md:px-10 px-2">Login
+                    </button>
                     <button
-                        class="rounded-xl font-bold  bg-yellow-400 border hover:border-yellow-400 hover:text-yellow-400 hover:bg-transparent py-1 px-10">Signup</button>
+                        class="rounded-xl font-bold  bg-yellow-400 border hover:border-yellow-400 hover:text-yellow-400 hover:bg-transparent py-1 md:px-10 px-2">Signup
+                    </button>
+                </div>
 
             </nav>
 
-
-
             <!-- hero section -->
-            <div class="w-full  max-w-[1800px] mx-auto flex px-8 pt-4 justify-center items-center gap-2">
+            <div class="w-full  max-w-[1800px] mx-auto flex md:flex-row flex-col p-4 justify-center items-center gap-2">
 
                 <!-- left/text -->
-                <div class="text-white w-1/2 flex flex-col justify-between md:items-start items-center gap-8 p-4">
+                <div
+                    class="text-white md:w-1/2 w-full flex flex-col justify-between md:items-start items-center gap-8 p-2">
+
                     <!-- heading -->
-                    <div class="w-full overflow-hidden">
+                    <div class="w-full overflow-hidden text-center md:text-start">
                         <h2 class="cursor-pointer font-bold text-4xl w-full">
                             <span class="hover:text-yellow-400">Let's</span>
                             <span class="hover:text-yellow-400">Sky</span>
@@ -63,9 +72,8 @@
                         </h2>
                     </div>
 
-
                     <!-- text -->
-                    <div class="w-full p-2">
+                    <div class="w-full p-2 text-center md:text-start">
                         <p>Lorem ipsum, <span class="text-yellow-400 hover:text-white">Ducimus minima numquam
                                 recusandae</span>
                             dolor sit amet consectetur adipisicing elit. , et omnis, optio fugit aliquid debitis laborum
@@ -73,9 +81,9 @@
                             sunt
                             doloribus corrupti, <span class="text-yellow-400 hover:text-white">nam officiis unde? Odit
                                 eveniet
-                                quis ut!</span> </p>
+                                quis ut!</span>
+                        </p>
                     </div>
-
 
                     <!-- check list -->
                     <div class="flex w-full justify-start gap-10 items-center p-2">
@@ -93,10 +101,10 @@
                             </li>
                             <li>
                                 <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
-                                        alt="">Lorem, ipsum.</p>
+                                        alt="">Lorem, ipsum.
+                                </p>
                             </li>
                         </ul>
-
 
                         <!-- right checklist -->
                         <ul class="p-1">
@@ -112,30 +120,603 @@
                             </li>
                             <li>
                                 <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
-                                        alt="">Lorem, ipsum.</p>
+                                        alt="">Lorem, ipsum.
+                                </p>
                             </li>
                         </ul>
                     </div>
 
                     <!-- button -->
-                    <div class="w-full p-2"><button
+                    <div class="w-full p-2 flex justify-center md:justify-start items-center">
+                        <button
                             class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-3 px-10">Get
-                            Started</button></div>
-
+                            Started
+                        </button>
+                    </div>
                 </div>
 
 
                 <!-- right/image -->
-                <div class="w-1/2"><img class="w-full" src="../assets/surface1.png" alt=""></div>
+                <div class="md:w-1/2 w-full"><img class="w-full" src="../assets/surface1.png" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- expert store designing container -->
+    <div class="w-screen  overflow-x-hidden bg-center bg-no-repeat bg-cover flex justify-center items-center"
+        style=" background-image: url('../assets/Group\ 37176.png');">
+
+        <!-- expert store designing section -->
+        <div
+            class="flex max-w-[1800px] my-[10rem] md:flex-row flex-col  w-3/4 md:p-4 p-2 items-center justify-center gap-1">
+
+            <!-- left/image -->
+            <div class="md:w-1/2 w-full ">
+                <img class="w-full" src="../assets/Banner (2)reer 1.png" alt="banner-image">
+            </div>
+
+            <!-- right/text -->
+            <div class="md:w-1/2 w-full p-2 h-full">
+                <!-- title -->
+                <div class="w-full p-1 font-bold text-yellow-400 flex md:justify-start justify-center">
+                    <h2>EXPERT STORE DESIGNING</h2>
+                </div>
+
+                <!-- sub-title -->
+                <div
+                    class="flex md:justify-start justify-center gap-1 items-center font-bold text-3xl p-1 w-full md:text-start text-center">
+                    <h1 class="w-full"><span class="text-yellow-400 hover:text-black">Shopify</span> Stores That Are
+                        <br>Proven In Its <span class="text-yellow-400 hover:text-black">Power</span> To Convert
+                    </h1>
+                </div>
+
+                <!-- para -->
+                <div class="w-full p-1 text-slate-400 font-bold md:text-start text-center">
+                    <p>There are enough stresses involved in running a successful ecommerce site - the design and
+                        efficacy of your store shouldn't be one of them
+                    </p>
+                </div>
+
+                <!-- check-list -->
+                <div class="flex justify-start gap-10 items-center p-1 w-full">
+
+                    <!-- left checklist -->
+                    <ul class="p-1">
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <!-- right checklist -->
+                    <ul class="p-1">
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex justify-center items-center gap-2"><img src="../assets/Vector.png"
+                                    alt="">Lorem, ipsum.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-
-
-
-
-
     </div>
+
+    <!-- packages container -->
+    <div class="w-screen flex justify-center items-center mx-auto">
+
+        <!-- packages section -->
+        <div class="w-3/4 max-w-[1800px] my-[10rem] flex flex-col justify-center items-center">
+
+            <!-- title and subtitle -->
+            <div class="w-full p-4 flex flex-col justify-center items-center">
+
+                <!-- title -->
+                <div class="font-bold text-yellow-400 w-full text-center p-2">
+                    <h2>PACKAGES</h2>
+                </div>
+
+                <!-- sub-title -->
+                <div class="w-full text-center font-bold text-3xl p-2">
+                    <h1>
+                        Choose The Package That's <span class="text-yellow-400 hover:text-black">Right For You!</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="w-full flex md:flex-row flex-col  md:gap-0 gap-4 items-center justify-evenly p-4">
+
+                <!-- left card -->
+                <div
+                    class="md:w-[285px] w-full h-[603px]  bg-[#FCFAED] flex flex-col justify-between items-center px-2 rounded-xl">
+
+                    <!-- top / bar -->
+                    <div>
+                        <img src="../assets/card-top-bar.png" alt="bar">
+                    </div>
+
+                    <!-- center / text -->
+                    <div class="h-[50%] w-full flex flex-col justify-between items-center p-2">
+
+                        <!-- title -->
+                        <div class="text-center w-full text-4xl text-blue-800 font-bold p-2"
+                            style="font-family: Cedarville Cursive;">
+                            <h1>Simplify</h1>
+                        </div>
+
+                        <!-- price -->
+                        <div class="text-center font-bold text-3xl w-full">
+                            <h1><sup>₹</sup>4000</h1>
+                        </div>
+
+                        <!-- label(package reference) -->
+                        <div class="text-center text-slate-400 w-full">
+                            <p>In This Package</p>
+                        </div>
+
+                        <!-- check-list -->
+                        <div class="w-full p-2">
+                            <ul class="p-1 gap-4 flex flex-col items-center justify-center ">
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--bottom / button -->
+                    <div class="h-[10%] w-full flex justify-center items-start p-2 ">
+                        <button
+                            class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-1 md:px-10 px-2">Buy
+                            Now
+                        </button>
+
+
+                    </div>
+                </div>
+
+                <!-- center card -->
+                <div
+                    class="md:w-[305px]  w-full h-[645px] bg-[#294199] flex flex-col justify-between items-center px-2 rounded-xl">
+                    <!-- top / bar -->
+                    <div>
+                        <img src="../assets/card-top-bar-yellow.png" alt="bar">
+                    </div>
+
+                    <!-- center / text -->
+                    <div class="h-[70%] w-full flex flex-col justify-between items-center p-2">
+
+                        <!-- title -->
+                        <div class="text-center w-full text-4xl text-yellow-400 font-bold p-2"
+                            style="font-family: Cedarville Cursive;">
+                            <h1>Blendify</h1>
+                        </div>
+
+                        <!-- price -->
+                        <div class="text-center font-bold text-3xl w-full text-yellow-400">
+                            <h1><sup>₹</sup>5000</h1>
+                        </div>
+
+                        <!-- label(package reference) -->
+                        <div class="text-center text-white w-full ">
+                            <p>In This Package</p>
+                        </div>
+
+                        <!-- check-list -->
+                        <div class="w-full text-white p-2">
+                            <ul class="p-1   flex flex-col justify-between items-center gap-4">
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--bottom / button -->
+                    <div class="h-[10%] w-full flex justify-center items-start p-2 ">
+
+
+                        <button
+                            class="rounded-xl font-bold text-white bg-yellow-400 border hover:border-yellow-400 hover:text-yellow-400 hover:bg-transparent py-1 md:px-10 px-2">Buy
+                            Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- right card -->
+                <div
+                    class="md:w-[285px] w-full h-[603px] bg-[#FCFAED] flex flex-col justify-between items-center px-2 rounded-xl">
+                    <!-- top / bar -->
+                    <div>
+                        <img src="../assets/card-top-bar.png" alt="bar">
+                    </div>
+
+                    <!-- center / text -->
+                    <div class="h-[80%] w-full flex flex-col justify-between items-center p-2">
+
+                        <!-- title -->
+                        <div class="text-center w-full text-4xl text-blue-800 font-bold p-2"
+                            style="font-family: Cedarville Cursive;">
+                            <h1>Rockify</h1>
+                        </div>
+
+                        <!-- price -->
+                        <div class="text-center font-bold text-3xl w-full">
+                            <h1><sup>₹</sup>8000</h1>
+                        </div>
+
+                        <!-- label(package reference) -->
+                        <div class="text-center text-slate-400 w-full">
+                            <p>In This Package</p>
+                        </div>
+
+                        <!-- check-list -->
+                        <div class="w-full p-2">
+                            <ul class="p-1 gap-4 flex flex-col items-center justify-center  ">
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="flex justify-start items-center gap-2"><img src="../assets/Vector.png"
+                                            alt="">Lorem, ipsum.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--bottom / button -->
+                    <div class="h-[10%] w-full flex justify-center items-start p-2 ">
+                        <button
+                            class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-1 md:px-10 px-2">Buy
+                            Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- more we offer container -->
+    <div class="w-screen  overflow-x-hidden bg-center bg-no-repeat bg-cover flex justify-center items-center"
+        style=" background-image: url('../assets/Group\ 37176.png');">
+
+        <!-- more we offer section -->
+        <div class="max-w-[1800px] w-3/4 my-[10rem] flex md:flex-row flex-col">
+
+            <!-- left/ text -->
+            <div class="md:w-1/2 w-full p-4 flex flex-col gap-4">
+                <!-- title -->
+                <div class="font-bold md:text-start text-center w-full text-yellow-400 p-2">
+                    <h3 class="w-full">MORE WE OFFER!</h3>
+                </div>
+
+                <!-- subtitle -->
+                <div class="font-bold md:text-start text-center w-full text-3xl p-2">
+                    <h1>Engaging Video Ads Which <br> Will Explode Your <span
+                            class="text-yellow-400 hover:text-black">Sales</span> </h1>
+                </div>
+
+                <!-- para -->
+                <div class="font-bold text-slate-400 md:text-start text-center w-full p-2">
+                    <p>We offers whitening in a professional Solid Brush for <br> fast, safe, and effective results
+                        after 10 days.</p>
+                </div>
+
+                <!-- price -->
+                <div
+                    class="flex items-center gap-3 md:justify-start justify-center md:text-start text-center w-full p-2">
+                    <h1 class="text-3xl text-yellow-400">₹ 4000</h1>
+                    <h3 class="line-through text-slate-400">₹ 3000 </h3>
+                </div>
+
+
+                <!-- features -->
+                <div class="p-2 ">
+                    <ul class="flex flex-col gap-4 p-1">
+                        <li class="flex items-center  gap-2 p-1"><img src="../assets/Group.png" alt="">
+                            <p>2-minute timer with 30-second pulses</p>
+                        </li>
+                        <li class="flex items-center  gap-2  p-1"><img src="../assets/Group.png" alt="">
+                            <p>Whiter Teeth In 10 Days</p>
+                        </li>
+                        <li class="flex items-center  gap-2  p-1"><img src="../assets/Group.png" alt="">
+                            <p>Waterproof & shower-safe</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- button -->
+                <div class="p-2 flex justify-center md:justify-start items-center">
+                    <button
+                        class="rounded-xl font-bold  hover:bg-yellow-400 border border-yellow-400 text-yellow-400 hover:text-white bg-transparent py-3 px-10">Get
+                        Started
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- right/ image -->
+            <div class="md:w-1/2 w-full p-4 flex justify-center items-center">
+                <img class="w-full " src="../assets/Group 37178.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- site content container -->
+    <div class="w-screen flex justify-center items-center mx-auto">
+
+        <!-- site content section -->
+        <div class="max-w-[1800px] w-3/4 my-[10rem] flex flex-col gap-10">
+
+            <!-- up / text -->
+            <div class="p-4 flex flex-col items-center justify-center gap-1">
+                <!-- title -->
+                <div class="w-full p-2 text-center font-bold text-yellow-400">
+                    <h3>SITE CONTENT</h3>
+                </div>
+
+                <!-- subtitle -->
+                <div class="w-full p-2 text-center font-bold text-3xl">
+                    <h1>Because You're Worth It!</h1>
+                </div>
+
+                <!-- para -->
+                <div class="w-full p-2 text-center  text-slate-400">
+                    <p>Our product have all nature ingredients that satisfy all your needs</p>
+                </div>
+            </div>
+
+            <!-- site content features -->
+            <div class="flex md:flex-row flex-col w-full items-center md:gap-0 gap-4 justify-between p-4">
+
+                <!-- features 1 -->
+                <div class="flex gap-1 flex-col justify-center items-center p-2">
+                    <!-- top /logo container -->
+                    <div class="w-full flex justify-center items-center p-1">
+                        <!-- logo section -->
+                        <div class="bg-yellow-400 rounded-full w-[88px] h-[88px] flex justify-center items-center">
+                            <img src="../assets/bookmark-logo.png" alt="">
+
+                        </div>
+                    </div>
+
+                    <!-- title -->
+                    <div class="w-full text-center p-1 text-3xl font-bold">
+                        <h1>Organic Fruits</h1>
+                    </div>
+
+                    <!-- para -->
+                    <div class="w-full text-center p-1 text-slate-400">
+                        <p>Our fruits are fully certified organic, grown <br> according to international standards</p>
+                    </div>
+                </div>
+
+                <!-- features 2 -->
+                <div class="flex gap-1 flex-col justify-center items-center p-2">
+                    <!-- top /logo container -->
+                    <div class="w-full flex justify-center items-center p-1">
+                        <!-- logo section -->
+                        <div class="bg-yellow-400 rounded-full w-[88px] h-[88px] flex justify-center items-center">
+
+                            <!-- <img src="../assets/bookmark-logo.png" alt=""> -->
+                            <img class="w-full p-6" src="../assets/plug-logo.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- title -->
+                    <div class="w-full text-center p-1 text-3xl font-bold">
+                        <h1>High Quality</h1>
+                    </div>
+
+                    <!-- para -->
+                    <div class="w-full text-center p-1 text-slate-400">
+                        <p>Our fruits are fully certified organic, grown <br> according to international standards</p>
+                    </div>
+                </div>
+
+                <!-- features 3 -->
+                <div class="flex gap-1 flex-col justify-center items-center p-2">
+                    <!-- top /logo container -->
+                    <div class="w-full flex justify-center items-center p-1">
+                        <!-- logo section -->
+                        <div class="bg-yellow-400 rounded-full w-[88px] h-[88px] flex justify-center items-center">
+                            <!-- <i  class="fa-sharp fa-regular fa-microchip-ai "></i> -->
+                            <img class="w-full p-6" src="../assets/chip-logo.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- title -->
+                    <div class="w-full text-center p-1 text-3xl font-bold">
+                        <h1>Best Values</h1>
+                    </div>
+
+                    <!-- para -->
+                    <div class="w-full text-center p-1 text-slate-400">
+                        <p>Our fruits are fully certified organic, grown <br> according to international standards</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- our portfolio container -->
+    <div class="bg-[#FAFBFD] w-screen flex justify-center items-center mx-auto">
+
+        <!-- our portfolio section -->
+        <div class="max-w-[1800px] w-3/4 my-[10rem]">
+            <!-- up /text -->
+            <div class="w-full gap-4  flex-col flex justify-center items-center p-4">
+                <!-- title -->
+                <div class="font-bold text-yellow-400 text-center w-full p-2">
+                    <h2>OUR PORTFOLIO</h2>
+                </div>
+
+                <!-- subtitle -->
+                <div class="font-bold text-3xl text-center w-full p-2">
+                    <h1>Take A Look At Our Latest Work</h1>
+                </div>
+
+                <!-- design toggle container -->
+                <div class="w-full flex justify-between items-center p-2">
+
+                    <!--design toggle section  -->
+                    <div class="w-[82%] flex items-center justify-end">
+
+                        <!-- website design -->
+                        <div>
+
+                            <!-- title -->
+                            <div class="font-bold text-yellow-400">
+                                <p>Website Design</p>
+                            </div>
+
+                            <!-- bar -->
+                            <div><img src="../assets/Rectangle 2020.png" alt=""></div>
+
+                        </div>
+
+                        <!-- advertising Videos -->
+                        <div >
+                            <!-- title -->
+                            <div>
+                                <p>Advertising Videos</p>
+                            </div>
+
+                            <!-- bar -->
+                            <div class="w-[50%]"><img src="../assets/Rectangle 2019.png"></div>
+                        </div>
+                    </div>
+
+                    <!-- view all -->
+                    <div class="w-[10%] font-bold text-yellow-400 text-end p-1">
+                        <p>View All</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- down / images  -->
+            <div class="flex-wrap w-full flex justify-evenly items-center p-4">
+
+                <div class="w-[305px] h-[372px] p-2 m-2 rounded-lg">
+                    <img class="w-full h-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1671212748162-d7bdb9d4f5ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+                </div>
+
+                <div class="w-[305px] h-[372px] p-2 m-2 rounded-lg">
+                    <img  class="w-full h-full rounded-lg" src="https://images.unsplash.com/photo-1682685797439-a05dd915cee9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
+                </div>
+
+                <div class="w-[305px] h-[372px] p-2 m-2 rounded-lg">
+                    <img  class="w-full h-full rounded-lg" src="https://images.unsplash.com/photo-1693751705443-231fcf26469c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1859&q=80" alt="">
+                </div>
+
+                <div class="w-[305px] h-[372px] p-2 m-2 rounded-lg">
+                    <img  class="w-full h-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1678402545080-2353b489c0c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+
+                <div class="w-[305px] h-[372px]  p-2 m-2 rounded-lg">
+                    <img  class="w-full h-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1678402545080-2353b489c0c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+
+                <div class="w-[305px] h-[372px]  p-2 m-2 rounded-lg">
+                    <img  class="w-full h-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1678402545080-2353b489c0c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
 
 
 </body>
